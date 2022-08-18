@@ -13,7 +13,8 @@ Simulated Kitchen Robot Solving Long-horizon Manipulation Tasks with Short Actio
 
 <br>
 <p align="center">
-<img src="results/figures/ExperimentOverview.png" alt="Experiment Overview" height="150" width="240"/>
+<img src="results/figures/simulation_environment.png" alt="Experiment Overview"/>
+<img src="results/figures/defined_actions.png" alt="Defined actions"/>
 </p>
 <br>
 </div>
