@@ -1,6 +1,28 @@
-# Simulated Kitchen Robot Solving Long-horizon Manipulation Tasks with Short Action Library
+<h1 align="center">
+Simulated Kitchen Robot Solving Long-horizon Manipulation Tasks with Short Action Library
+</h1>
 
-Dingkun Guo, Xiaofeng Guo, and Yunchu Zhang (all authors contributed equally to this project)
+<div align="center">
+<h3>
+<a href="https://dkguo.com">Dingkun Guo</a>,
+<a href="https://github.com/Xiaofeng-Guo">Xiaofeng Guo</a>, and
+<a href="https://yunchuzhang.github.io">Yunchu Zhang</a> 
+<br>
+(all authors contributed equally to this project)
+</h3>
+
+<br>
+<p align="center">
+<img src="images/rolling.gif" alt="rolling" height="150" width="240"/>
+<img src="images/walking.gif" alt="walking" height="150" width="240"/>
+<img src="images/transition.gif" alt="transition" height="150" width="240"/>
+</p>
+<br>
+</div>
+
+
+
+
 
 This work is the final project report of course 16-745: Optimal Control and Reinforcement Learning at Carnegie Mellon University, Pittsburgh, PA, USA in Spring 2022
 
