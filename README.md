@@ -13,8 +13,8 @@ Simulated Kitchen Robot Solving Long-horizon Manipulation Tasks with Short Actio
 
 <br>
 <p align="center">
-<img src="results/figures/simulation_environment.png" alt="Experiment Overview"/>
-<img src="results/figures/defined_actions.png" alt="Defined actions"/>
+<img src="results/figures/simulation_environment.png" alt="Experiment Overview" width="360"/>
+<img src="results/figures/defined_actions.png" alt="Defined actions" width="360"/>
 </p>
 <br>
 </div>
@@ -22,4 +22,6 @@ Simulated Kitchen Robot Solving Long-horizon Manipulation Tasks with Short Actio
 
 This work is the final project of Course 16-745: Optimal Control and Reinforcement Learning at Carnegie Mellon University, Pittsburgh, PA, USA in Spring 2022.
 
-Abstract: We proposed a two stage optimization method for learning to solve long horizon manipulation tasks in a simulated kitchen environment in Mujoco. Our key innovation is to decompose the long horizon manipulation tasks into several short horizon manipulation actions and track those short actions’ trajectories with Time-varying Linear Quadratic Regulator (TVLQR). Then we chain the optimal actions with transitions to get a whole reference trajectory. By utilizing nonlinear trajectory optimization – iterative Linear Quadratic Regulator (iLQR), we obtained the optimal controller and smoother trajectories of long horizon manipulation tasks. Our key ideas in this work are: (1) building up a series of short horizon primitives based on expert demonstrations such as opening a microwave, turning on a switcher, and lifting and placing the kettle, and (2) chaining short actions’ trajectories with smooth transitions, then utilizing iLQR to smooth the whole trajectory to solve the long horizon manipulation tasks. In our experiments, we show that our method has smaller cost and robust performance compared to PID controller and open loop controller.
+<b>Abstract</b>: We proposed a two stage optimization method for learning to solve long horizon manipulation tasks in a simulated kitchen environment in Mujoco. Our key innovation is to decompose the long horizon manipulation tasks into several short horizon manipulation actions and track those short actions’ trajectories with Time-varying Linear Quadratic Regulator (TVLQR). Then we chain the optimal actions with transitions to get a whole reference trajectory. By utilizing nonlinear trajectory optimization – iterative Linear Quadratic Regulator (iLQR), we obtained the optimal controller and smoother trajectories of long horizon manipulation tasks. Our key ideas in this work are: (1) building up a series of short horizon primitives based on expert demonstrations such as opening a microwave, turning on a switcher, and lifting and placing the kettle, and (2) chaining short actions’ trajectories with smooth transitions, then utilizing iLQR to smooth the whole trajectory to solve the long horizon manipulation tasks. In our experiments, we show that our method has smaller cost and robust performance compared to PID controller and open loop controller.
+
+The complete report is avaiable <a href="https://github.com/dkguo/Optimal-Control-of-Simulated-Kitchen-Tasks/blob/main/results/report.pdf">here</a>.
